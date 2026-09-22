@@ -32,9 +32,21 @@ real logic and patterns, sample data, nothing client-identifying.
 | [gaffer-x-post-generator](https://github.com/elliegdickinson/gaffer-x-post-generator) | Turns live fixture data into on-brand X posts: copy, rendered fixture cards, Buffer-ready CSV |
 | [gaffer-seo-brief](https://github.com/elliegdickinson/gaffer-seo-brief) | Daily Search Console brief: near-miss queries, low-CTR pages, coverage gaps |
 | [fixtures-ical-feed](https://github.com/elliegdickinson/fixtures-ical-feed) | Scrapes a bot-protected fixtures page into a subscribable calendar feed, built for my own grassroots football team |
+| [venue-chain-importer](https://github.com/elliegdickinson/venue-chain-importer) | Grows the venue database from OpenStreetMap chain-pub data, resumable and dedupe-aware |
 
 These are code I run for real, not rebuilds - no client data involved, so
 nothing to sanitise.
 
+#### Other
+
+| Repo | What it does |
+|---|---|
+| [lesson-formatter](https://github.com/elliegdickinson/lesson-formatter) | Template-native PowerPoint lesson generator - a deterministic formatting engine, AI only for content structuring |
+
+Not marketing - included to show a different kind of judgment: knowing
+which part of a problem should be deterministic code and which part
+should be left to an LLM.
+
 **Stack:** Python, REST APIs (Smartlead, Apollo, Meta/Google Ads, Google
-Search Console), n8n, openpyxl, Pillow, ffmpeg, Playwright.
+Search Console, OpenStreetMap), n8n, openpyxl, python-pptx, Pillow, ffmpeg,
+Playwright.
