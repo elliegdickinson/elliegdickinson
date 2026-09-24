@@ -25,6 +25,17 @@ of manual work.
 Each repo is a generalised rebuild of a pipeline I actually run day to day -
 real logic and patterns, sample data, nothing client-identifying.
 
+#### Also built
+
+| Repo | What it does |
+|---|---|
+| [dead-zone-arcade-game](https://github.com/elliegdickinson/dead-zone-arcade-game) | A Pac-Man-style arcade game about office WiFi dead zones - canvas game engine, procedural pixel art, no framework, single HTML file |
+
+An internal employer-branding build, not a demand gen pipeline - included
+because making a product's actual pain point fun to play is its own kind
+of marketing, and because it's the best proof of range in this account:
+canvas rendering, game AI, procedural art and audio, all from scratch.
+
 #### Side project: Gaffer (a pub-finder app for football fixtures)
 
 | Repo | What it does |
