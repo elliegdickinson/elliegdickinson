@@ -48,15 +48,19 @@ canvas rendering, game AI, procedural art and audio, all from scratch.
 These are code I run for real, not rebuilds - no client data involved, so
 nothing to sanitise.
 
-#### Side project: Sip Happens (a party game for my friends)
+#### Side project: Sip Happens (a party game, heading to the app stores)
 
-| Repo | What it does |
-|---|---|
-| [sip-happens](https://github.com/elliegdickinson/sip-happens) | A pass-the-phone party game, built as a free take on Picolo - weighted mood decks, timed rule cards, fair player picking, house cards. [Play it](https://playsiphappens.netlify.app) |
+A pass-the-phone party game I built for my friends - a free take on
+Picolo that's now being packaged for Google Play and the App Store at
+£1.99. The code is private while it's a paid product, but the build is
+the interesting bit:
 
-Built because my friends and I play this kind of game most evenings, and
-the brief was "same night out, as close to £0 as possible": one HTML
-file, no backend, hosted free on Netlify.
+- One HTML file, no framework, wrapped as a native app with Capacitor
+- A deck builder with mood-weighted packs, timed "rule" cards and fair
+  player picking
+- A ~2,500-card bank with per-device memory, so decks deal cards you
+  haven't seen before repeating anything
+- A Heads Up mode driven by the phone's motion sensors (tilt to answer)
 
 #### Other
 
