@@ -48,6 +48,16 @@ canvas rendering, game AI, procedural art and audio, all from scratch.
 These are code I run for real, not rebuilds - no client data involved, so
 nothing to sanitise.
 
+#### Side project: Sip Happens (a party game for my friends)
+
+| Repo | What it does |
+|---|---|
+| [sip-happens](https://github.com/elliegdickinson/sip-happens) | A pass-the-phone party game, built as a free take on Picolo - weighted mood decks, timed rule cards, fair player picking, house cards. [Play it](https://playsiphappens.netlify.app) |
+
+Built because my friends and I play this kind of game most evenings, and
+the brief was "same night out, as close to £0 as possible": one HTML
+file, no backend, hosted free on Netlify.
+
 #### Other
 
 | Repo | What it does |
